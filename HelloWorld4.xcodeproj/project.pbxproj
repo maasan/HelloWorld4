@@ -23,11 +23,11 @@
 		9E35F20513C7263B00AEDF9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E35F20713C7263B00AEDF9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E35F20913C7263B00AEDF9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9E35F20D13C7263B00AEDF9B /* HelloWorld4-Info.plist */ = {isa = PBXFileReference; path = "HelloWorld4-Info.plist"; sourceTree = "<group>"; };
+		9E35F20D13C7263B00AEDF9B /* HelloWorld4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld4-Info.plist"; sourceTree = "<group>"; };
 		9E35F20F13C7263B00AEDF9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E35F21113C7263B00AEDF9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E35F21313C7263B00AEDF9B /* HelloWorld4-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorld4-Prefix.pch"; sourceTree = "<group>"; };
-		9E35F21413C7263B00AEDF9B /* HelloWorld4AppDelegate.h */ = {isa = PBXFileReference; path = HelloWorld4AppDelegate.h; sourceTree = "<group>"; };
+		9E35F21313C7263B00AEDF9B /* HelloWorld4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld4-Prefix.pch"; sourceTree = "<group>"; };
+		9E35F21413C7263B00AEDF9B /* HelloWorld4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld4AppDelegate.h; sourceTree = "<group>"; };
 		9E35F21513C7263B00AEDF9B /* HelloWorld4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld4AppDelegate.m; sourceTree = "<group>"; };
 		9E35F21713C7263B00AEDF9B /* HelloWorld4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld4ViewController.h; sourceTree = "<group>"; };
 		9E35F21913C7263C00AEDF9B /* HelloWorld4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld4ViewController.m; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -225,7 +225,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
